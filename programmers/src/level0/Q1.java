@@ -3,6 +3,7 @@ package level0;
 import java.util.*;
 
 class Solution {
+	// 수열과 구간쿼리2
     public int[] solution(int[] arr, int[][] queries) {
         int[] answer = new int[queries.length];
 		Arrays.fill(answer, Integer.MAX_VALUE);
