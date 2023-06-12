@@ -5,7 +5,6 @@ import java.util.Arrays;
 class Solution3 {
     public int[] solution(int[] arr, int[][] queries) {
     	// 수열과 구간쿼리 
-    	
         int[] answer = {arr.length};
         for(int i = 0; i < queries.length; i++) {
         	for(int j = queries[i][0]; j <= queries[i][1]; j++) {
