@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class Solution3 {
     public int[] solution(int[] arr, int[][] queries) {
-    	// 수열과 구간쿼리 4
+    	// 수열과 구간쿼리 
     	
         int[] answer = {arr.length};
         for(int i = 0; i < queries.length; i++) {
